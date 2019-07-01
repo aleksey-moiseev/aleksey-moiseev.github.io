@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link href="css/main.css" rel="stylesheet"> 
+    <link href="css/main-adaptive.css" rel="stylesheet"> 
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- First Screen -->
+<div class="first-screen" id="home">
+    <div class="container">
+        <div class="header">
+                <div class="main-menu">
+                        <div class="main__logo">
+                            <a href="#home"><img src="images/logo.svg" alt="main-logo"></a>
+                        </div>
+                        <div class="header-menu" id="mySidenav">
+                            <ul>
+                                <li><a class="nav__link" href="#about-us">О нас</a></li>
+                                <li><a class="nav__link" href="#services">Цены</a></li>
+                                <li><a class="nav__link" href="#contacts">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-phone-link">
+                                <a href="tel:+8-800-978-2075" class="text-white font-weight-bold">+8-800-978-2075</a>
+                        </div>
+                        <div class="menu__btn menu" 
+                        onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </div>
+            <div class="header-description">
+                <h1>Получи скидку на стрижку и укладку</h1>
+            </div>
+            <div class="main-btn">
+                <button>получить скидку</button>
+            </div>
+            <div class="first-screen-man">
+                <img src="images/first-screen-man.png" alt="barber">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- About Us -->
+<div class="about-us" id="about-us">
+    <div class="container">
+        <div class="about-us-photo">
+            <img src="images/about-us-photo.jpg" alt="about-us-photo">
+        </div>
+        <div class="about-us-description">
+                <h2>Мы создаем характер</h2>
+                <p>Наша команда специалистов работает со всеми видами мужских стрижек. 
+                    Мы подберем для Вас оптимальный вариант, 
+                    который подчеркнет Ваш стиль и образ. </p>
+        </div>
+    </div>
+</div>
+
+    <!-- Services -->
+<div class="services" id="services">
+    <div class="container">
+        <h2>
+            Наши услуги
+        </h2>
+        <div class="services-table">
+            <div class="services-table-row">
+                <div class="services-title">
+                    Мужская стрижка
+                </div>
+                <div class="services-cost">
+                    <p>1200руб</p>
+                </div>
+            </div>
+            <div class="services-table-row">
+                <div class="services-title">
+                    Коррекция бороды
+                </div>
+                <div class="services-cost">
+                    <p>700руб</p>
+                </div>
+            </div>
+            <div class="services-table-row">
+                <div class="services-title">
+                    Укладка 
+                </div>
+                <div class="services-cost">
+                    <p>400руб</p>
+                </div>
+            </div>
+            <div class="services-table-row">
+                <div class="services-title">
+                    Детская стрижка
+                </div>
+                <div class="services-cost">
+                    <p>500руб</p>
+                </div>
+            </div>
+            <div class="services-table-row">
+                <div class="services-title">
+                    Окантовка
+                </div>
+                <div class="services-cost">
+                    <p>300руб</p>
+                </div>
+            </div>
+        </div>
+            <div class="main-btn">
+                        <button>Записаться онлайн</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Our Inst -->
+
+<div class="our-inst">
+    <div class="container">
+        <h2>
+            Мы в <a href="#">Instagram</a>
+        </h2>
+        <div class="inst-photos">
+            <img class="inst-photo-1" src="images/instagram-photo-1.jpg" alt="instagram-photo-1">
+            <img id="inst-photo-2"src="images/instagram-photo-2.jpg" alt="instagram-photo-2">
+            <img id="inst-photo-3"src="images/instagram-photo-3.jpg" alt="instagram-photo-3">
+        </div>
+        <div class="main-btn">
+            <button>Подписаться</button>
+        </div>
+    </div>
+</div>
+
+<!-- Conctacts -->
+<div class="contacts" id="contacts">
+    <div class="container">
+        <div class="contacts-description">
+            <h3>Мы ждем Вас каждый день:</h3>
+            <ul>
+                <li>Санкт-Петербург </li>
+                <li>пр-т Московский, 220  </li>
+                <li>График работы: 9:00-21:00</li>
+                <li>+8-800-978-2075</li>
+                <li>+8-800-978-2080</li>
+            </ul>
+            <div class="contacts-social-links">
+                <ul>
+                    <li><a href="#"><img src="images/facebook.svg" alt="facebook"></a></li>
+                    <li><a href="#"><img src="images/vk.svg" alt="vk"></a></li>
+                    <li><a href="#"><img src="images/instagram.svg" alt="instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="scripts/js-scripts.js"></script>
+</body>
+</html>

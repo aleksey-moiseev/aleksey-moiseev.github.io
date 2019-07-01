@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "GothamPro"; 
+    src: local('☺'), 
+         url("../fonts/GothamPro.ttf") format("opentype"),
+         url("../fonts/GothamPro.woff") format("woff"); 
+    font-weight: normal;
+    font-style: normal;
+    
+   }
+
+@font-face {
+    font-family: "GothamPro-Bold"; 
+    src: url("../fonts/GothamPro-Bold.ttf") format("opentype"),
+         url("../fonts/GothamPro-Bold.woff") format("woff"); 
+    font-weight: bold;
+    font-style: normal;
+   }
+
+@font-face {
+    font-family: "GothamPro-Black"; 
+    src: url("../fonts/GothamPro-Black.ttf") format("opentype"),
+         url("../fonts/GothamPro-Black.woff") format("woff"); 
+    font-weight: bolder;
+    font-style: normal;
+   }
+
+.first-screen {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/first-screen-bg.jpg) center no-repeat fixed;
+    height: 1000px;
+    min-height: 500px;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.header {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+body {
+    color: white;
+}
+
+.main-menu {
+    padding-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-menu {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.header-menu ul {
+    display: flex;
+    margin-left: 75px;
+}
+
+.header-menu ul li {
+    margin-left: 70px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "GothamPro",sans-serif;
+}
+
+.header-menu ul li:first-child {
+    margin-left: 0;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.nav-phone-link {
+    font-family: "GothamPro-Bold", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none; 
+}
+
+.nav-phone-link a {  
+    color: #fff;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+}
+
+.menu__btn {
+    cursor: pointer;
+    position: absolute;
+    top: 28px;
+    right: 60px;
+    z-index: 2;
+    display: none;
+}
+
+h1 {
+    font-family: "GothamPro-Bold", sans-serif; 
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 67px;
+    color: #FFFFFF;
+
+    width: 639px;
+    height: 134px;
+    text-align: left;
+    z-index: 2;
+    top: 490px;
+    left: 0px;
+    position: absolute;
+    z-index: 5;
+
+}
+
+.first-screen button {
+    width: 285px;
+    height: 54px;
+    background-color: #FF7A50;
+    outline: none;
+    text-decoration: none;
+    border: none;
+
+    text-transform: uppercase;
+    font-family: "GothamPro", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    line-height: 54px;
+
+    cursor: pointer;
+    top: 690px;
+    left: 0px;
+    position: absolute;
+    z-index: 5;
+}
+
+.first-screen-man {
+    position: absolute;
+    top: 136px;
+    right: 14px;
+    z-index: 1;
+}
+
+
+@media-screen (max-width: 768px) {}
+
+
+
+
+/* About Us */
+
+.about-us {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: url("../images/about-us-bg.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 950px;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.about-us .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about-us-photo {
+    max-width: 100%;
+    margin-top: 126px;
+}
+
+.about-us-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-us-description {
+    position: absolute;
+    top: 626;
+    right: 0px;
+
+}
+    
+
+.about-us-description h2 {
+    font-family: "GothamPro-Black", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+ 
+    font-size: 50px;
+    letter-spacing: 0.03em;
+    line-height: 48px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px white;
+    margin-top: 80px;
+    
+}
+
+.about-us-description p {
+    max-width: 758px;
+    font-family: "GothamPro", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 153.2%;
+    color: #FFFFFF;
+    margin-top: 39px;
+}
+
+/* Services */
+
+.services {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: url("../images/serveces-bg.jpg") center no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+.services .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services h2 {
+    font-family: "GothamPro-Black", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+
+    letter-spacing: 0.03em;
+    font-size: 50px;
+    line-height: 48px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px white;
+    padding-top: 132px;
+    text-align: center;
+}
+
+.services-table {
+    font-family: "Gotham Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 1.0;
+}
+
+.services-table-row:first-child {
+    margin-top: 75px;
+}
+
+.services-table-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #fff;
+    padding-bottom: 25px;
+    margin-top: 47px;
+}
+
+.services-cost p {
+    margin-right: 440px;
+}
+
+.services .main-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.services button {
+    width: 285px;
+    height: 54px;
+    background-color: #FF7A50;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+
+    text-transform: uppercase;
+    font-family: "GothamPro", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    line-height: 54px;
+
+    cursor: pointer;
+    margin-top: 75px;
+}
+
+/* Our Inst */
+
+.our-inst {
+    width: 100%;
+    max-width: 100%;
+    background: url("../images/instagram-bg.jpg") center no-repeat;
+    height: 950px;
+    min-height: 500px;
+}
+
+.our-inst h2 {
+    font-family: "GothamPro-Black", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+
+    letter-spacing: 0.03em;
+    font-size: 50px;
+    line-height: 48px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px white;
+    padding-top: 132px;
+    text-align: center;
+}
+
+.our-inst h2 a {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+
+.inst-photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.our-inst .main-btn {
+    display: flex;
+    justify-content: center;
+}
+.our-inst  button {
+    width: 285px;
+    height: 54px;
+    background-color: #FF7A50;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+
+    text-transform: uppercase;
+    font-family: "GothamPro", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    line-height: 54px;
+
+    cursor: pointer;
+    margin-top: 75px;
+}
+
+/* Contacts */ 
+
+.contacts {
+    width: 100%;
+    max-width: 100%;
+    
+    background: url("../images/contacts-bg.jpg") center no-repeat;
+    height: 950px;
+    min-height: 500px;
+}
+
+.contacts .contacts-description {
+    padding-top: 470px;
+}
+
+.contacts-description h3 {
+    font-family: "GothamPro-Bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;    
+    margin-bottom: 46px;
+}
+
+
+.contacts-description ul li {
+    list-style: none;
+    margin-top: 34px;
+    font-family: "GothamPro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+}
+
+.contacts-social-links ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contacts-social-links ul li {
+    padding-right: 35px;
+}
